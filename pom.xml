@@ -36,7 +36,7 @@
     <httpcomponents.version>4.5.14</httpcomponents.version>
     <jitsiGeneralGroupId>org.jitsi</jitsiGeneralGroupId>
     <!-- keep this empty default for Linux builds -->
-    <jitsi-deps-arch></jitsi-deps-arch>
+    <jitsi-deps-arch/>
   </properties>
 
   <dependencies>
@@ -105,7 +105,7 @@
       <dependency>
         <groupId>org.jitsi</groupId>
         <artifactId>jitsi-lgpl-dependencies</artifactId>
-        <version>1.2-23-g7b49874</version>
+        <version>1.2-8-ga3f4e8c</version>
         <scope>runtime</scope>
         <classifier>${jitsi-deps-arch}</classifier>
       </dependency>
