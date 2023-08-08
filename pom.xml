@@ -24,7 +24,7 @@
   <properties>
     <revision>2.14-SNAPSHOT</revision>
     <versionName>Jitsi Desktop</versionName>
-    <bouncycastleVersion>1.72</bouncycastleVersion>
+    <bouncycastleVersion>1.75</bouncycastleVersion>
     <jnaVersion>5.13.0</jnaVersion>
     <smackVersion>4.4.6</smackVersion>
     <jxmppVersion>1.0.3</jxmppVersion>
@@ -36,7 +36,7 @@
     <httpcomponents.version>4.5.14</httpcomponents.version>
     <jitsiGeneralGroupId>org.jitsi</jitsiGeneralGroupId>
     <!-- keep this empty default for Linux builds -->
-    <jitsi-deps-arch></jitsi-deps-arch>
+    <jitsi-deps-arch/>
   </properties>
 
   <dependencies>
